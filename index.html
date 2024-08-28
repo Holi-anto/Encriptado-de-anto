@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptado de Anto</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="imgenes/Logo.png" alt="logo alura" class="logo">
+  </header>
+
+  <main>
+    <form class="contenedor-form">
+      <textarea class="form-text" name="mensaje" placeholder="Ingrese el texto aqui"></textarea>
+      <div class="alerta">
+        <img src="imgenes/alert.svg" class="alerta">
+      </div>
+      <div class="contenedor-botones">
+        <input type="button" value="Encriptar" class="btn-encriptar">
+        <input type="button" value="Desencriptar" class="btn-desencriptar">
+      </div>
+    </form>
+    <aside class="resultado">
+      <img src="imgenes/Muneco.png" alt="muneco" class="muneco" >
+      <div class="contenedor-mensaje">
+        <h3 class="resultado-titulo">Ningún mensaje fue <br> encontrado</h3>
+        <p class="resultado-texto">Ingresa el texto que deseas encriptar o <br> desencriptar.</p>
+        <input type="button" value="Copiar" class="btn-copiar">
+      </div>
+    </aside>
+  </main>
+  <footer></footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
